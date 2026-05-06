@@ -39,7 +39,7 @@ const explorations = [
   {
     no: "01",
     title: "AI-assisted credential translation",
-    body: "Bridging professional identities across languages, contexts, and AI systems.",
+    body: "Building systems for translating professional knowledge across languages, contexts, and AI workflows.",
   },
   {
     no: "02",
@@ -49,17 +49,17 @@ const explorations = [
   {
     no: "03",
     title: "Human + AI learning systems",
-    body: "Hybrid environments where humans and models learn alongside each other.",
+    body: "Exploring environments where humans and intelligent systems learn alongside each other.",
   },
   {
     no: "04",
     title: "Knowledge systems for deep work",
-    body: "Quiet infrastructure for sustained, layered thinking over months and years.",
+    body: "Creating quiet infrastructure for sustained thinking, reflection, and long-term creative work.",
   },
   {
     no: "05",
     title: "Long-term AI-native thinking tools",
-    body: "Instruments built to be lived with — not used once and forgotten.",
+    body: "Designing tools intended to support ongoing thought, learning, and creation over time.",
   },
 ];
 
