@@ -147,20 +147,21 @@ function Index() {
           </div>
           <div className="space-y-6 text-pretty text-lg font-light leading-relaxed text-foreground/85 md:col-span-7 md:col-start-6">
             <p>
-              Wuji Labs is a personal, AI-native studio — a small, deliberate
-              space for research, writing, and building at the intersection of
-              cognitive systems, learning, and human-centered technology.
+              Wuji Labs is a personal, AI-native studio — a deliberate space
+              for building, learning, and exploring the intersection of
+              cognition, systems, and human-centered technology.
             </p>
             <p>
-              The work is slow on purpose. It blends deep reading with
-              practical making: prototypes that interrogate ideas, tools that
-              shape attention, and systems that try to take the measure of
-              their own user.
+              The work here is intentionally long-term. It combines deep
+              thinking with practical creation: experiments, workflows, tools,
+              and ideas designed to help humans think, learn, and create more
+              clearly in the age of AI.
             </p>
             <p>
-              Less a product company than an evolving long-term platform —
-              for experiments, essays, and the gradual accretion of a
-              worldview about what humans and machines can become together.
+              Less a traditional company than an evolving platform for
+              exploration, Wuji Labs is a place for projects, reflections, and
+              ongoing attempts to understand how humans and intelligent
+              systems can grow together.
             </p>
           </div>
         </div>
