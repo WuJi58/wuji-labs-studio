@@ -229,11 +229,11 @@ function Index() {
             clarity emerges.”
           </blockquote>
           <p className="mx-auto mt-14 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground">
-            Wuji — the boundless, the undivided — is the state before form.
-            The studio takes its name from this: a practice of sitting with
-            complexity long enough to see its patterns, and shaping tools
-            that help others do the same in an age increasingly written by
-            machines.
+            Wuji — the boundless, the undivided — refers to the state before
+            form. Wuji Labs takes its name from this idea: staying with
+            complexity long enough to recognize patterns, and building
+            systems that help humans think, learn, and create more clearly
+            in the age of AI.
           </p>
         </div>
       </section>
