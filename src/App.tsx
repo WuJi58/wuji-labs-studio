@@ -1,40 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Wuji Labs — A studio for cognition, systems & AI" },
-      {
-        name: "description",
-        content:
-          "Wuji Labs is a personal AI-native studio exploring cognition, learning systems, and human-centered technology in the age of AI.",
-      },
-      { property: "og:title", content: "Wuji Labs" },
-      {
-        property: "og:description",
-        content:
-          "Building systems that help humans think, learn, and create better in the age of AI.",
-      },
-    ],
-    links: [
-      {
-        rel: "preconnect",
-        href: "https://fonts.googleapis.com",
-      },
-      {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com",
-        crossOrigin: "anonymous",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap",
-      },
-    ],
-  }),
-  component: Index,
-});
-
 const explorations = [
   {
     no: "01",
@@ -63,7 +26,7 @@ const explorations = [
   },
 ];
 
-function Index() {
+export default function App() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-background text-foreground">
       {/* Ambient background */}
@@ -120,22 +83,14 @@ function Index() {
                 strokeDasharray="460 50"
                 className="text-foreground/70"
               />
-              <circle
-                cx="100"
-                cy="100"
-                r="2"
-                className="fill-foreground/60"
-              />
+              <circle cx="100" cy="100" r="2" className="fill-foreground/60" />
             </svg>
           </div>
         </div>
       </section>
 
       {/* About */}
-      <section
-        id="about"
-        className="relative z-10 border-t border-hairline"
-      >
+      <section id="about" className="relative z-10 border-t border-hairline">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-28 md:grid-cols-12 md:gap-10 md:px-10 md:py-40">
           <div className="md:col-span-4">
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
@@ -168,10 +123,7 @@ function Index() {
       </section>
 
       {/* Current Explorations */}
-      <section
-        id="work"
-        className="relative z-10 border-t border-hairline"
-      >
+      <section id="work" className="relative z-10 border-t border-hairline">
         <div className="mx-auto max-w-6xl px-6 py-28 md:px-10 md:py-40">
           <div className="grid gap-12 md:grid-cols-12">
             <div className="md:col-span-4">
@@ -215,10 +167,7 @@ function Index() {
       </section>
 
       {/* Philosophy */}
-      <section
-        id="philosophy"
-        className="relative z-10 border-t border-hairline"
-      >
+      <section id="philosophy" className="relative z-10 border-t border-hairline">
         <div className="mx-auto max-w-4xl px-6 py-32 text-center md:px-10 md:py-48">
           <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
             無極 &nbsp;·&nbsp; Wújí
